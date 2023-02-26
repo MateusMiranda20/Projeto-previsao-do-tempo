@@ -1,0 +1,94 @@
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffff;
+    width: calc(100% - 100px);
+}
+
+.caixa_maior{
+    background-color: #000;
+    width: 95%;
+    max-width: 430px;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+button{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7c7c7c6b;
+}
+
+.caixa_media{
+    margin-top: 40px;
+}
+
+.caixa_menor{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.lupa{
+    height: 20px;
+}
+
+h2{
+    color: #ffff;
+    font-size: 28px;
+}
+
+
+.temp_max{
+
+    color: #ffff;
+    margin-top: 25px;
+}
+
+.temp_min{
+
+    color: #ffff;
+    margin-top: 25px;
+}
+
+.descricao{
+    color: #ffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade{
+    color: #ffff;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
